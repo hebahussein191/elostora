@@ -1,0 +1,1000 @@
+/* Custom Rules */
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* First Color : #213570 */
+/* Second Color : #ec7638 */
+
+section,
+footer {
+    padding: 80px 0;
+    background: #fff;
+}
+
+@media (max-width: 768px) {
+
+    section,
+    footer {
+        padding: 40px 0;
+    }
+}
+
+h2,
+h3 {
+    color: #213570;
+}
+
+p {
+    color: #b1acb3;
+    line-height: 1.8
+}
+
+.line {
+    width: 100px;
+    background-color: #ec7638;
+    height: 1px;
+    margin: 20px auto
+}
+
+.btn-head {
+    background-color: #303174;
+    border: #303174;
+    font-size: 16px;
+    padding: 8px 65px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none
+}
+
+.btn-head:hover {
+    color: #ec7638;
+    background-color: #303174;
+    border: #303174;
+}
+
+img {
+    max-width: 100%
+}
+
+/* Start Header */
+.header {
+    color: #fff;
+    position: relative;
+    padding: 0px;
+    line-height: 0px;
+}
+
+.header .nav-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.header.header-inner {
+    background: #ef6f2e;
+}
+
+.header.header-inner .nav-custom {
+    position: static;
+}
+
+
+.header .nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.header .nav-link:hover {
+    color: #303174;
+    border-bottom: 2px solid #303174;
+}
+
+.header ul {
+    padding: 75px 0;
+    margin: 0;
+    list-style: none
+}
+
+.header.header-inner {
+    padding: 0;
+}
+
+.header ul li {
+    display: inline-block
+}
+
+
+.header .img img {
+    width: 70%
+}
+
+.about .img img,
+.faq .img img,
+.how-to .img img,
+.nav-for-sell .img img,
+.nav-degla-land .img img {
+    width: 60%;
+    padding-left: 120px;
+}
+
+.header .header-overlay {
+    background-color: rgba(241, 116, 49, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+}
+
+.header .header-overlay h1 {
+    margin-bottom: 50px
+}
+
+.header-content {
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .header .img img {
+        width: 68px;
+    }
+
+    .header .nav-link {
+        font-size: 13px;
+        margin: 8px 0
+    }
+
+    .header-content h1 {
+        font-size: 16px
+    }
+
+    .header ul {
+        padding: 10px
+    }
+
+    .header ul li {
+        display: block
+    }
+
+    .header-content .btn-head {
+        font-size: 12px;
+        padding: 5px 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .about .nav-link,
+    .faq .nav-link,
+    .how-to .nav-link,
+    .nav-for-sell .nav-link,
+    .nav-degla-land .nav-link {
+        color: #fff;
+        margin-top: 35px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+}
+
+/* End Header */
+
+/* Start About */
+.about-us .head-title {
+    margin: 30px 0;
+    position: relative;
+}
+
+.about-us .about-items {
+    padding-top: 80px
+}
+
+.about-us .about-items img {
+    width: 30%;
+    margin-bottom: 45px
+}
+
+.about-us .about-items .head {
+    margin-top: -14px
+}
+
+.about-us .about-items .head:hover,
+.about-us .about-items h3:hover {
+    text-decoration: underline;
+    color: #303174;
+    cursor: pointer;
+}
+
+.about-us .about-items .head a,
+.about-us .about-items h3 a {
+    color: #303174;
+}
+
+.about-us .about-items p {
+    margin-top: 35px
+}
+
+/* End About */
+
+/* Start Visit */
+.visit .head-title {
+    margin: 30px 0;
+    position: relative;
+}
+
+.visit .visit-items {
+    padding-top: 80px
+}
+
+.visit .visit-items img {
+    width: 50%;
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+}
+
+.visit .visit-items img:hover {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+/* End Visit */
+
+/* Start Buy-Now */
+.buy-now {
+    background: url(../images/imgs/buy-now/subtle-pattern-1.jpg) no-repeat center center;
+    background-size: cover
+}
+
+.buy-now .card {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    margin-top: 80px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+
+    .buy-now .card {
+        margin: 10px auto;
+    }
+
+}
+
+.buy-now .card:hover {
+    transform: rotateY(180deg);
+}
+
+.buy-now .card>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.buy-now .card .front {
+    z-index: 1;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+.buy-now .card .front .icon {
+    display: block;
+    margin: 10px 0;
+    padding-right: 10px;
+}
+
+.buy-now .front i {
+    color: #ef6f2e;
+    margin-left: 10px;
+    font-size: 20px
+}
+
+.buy-now .front .icon span {
+    color: #b1acb3;
+    font-size: 13px
+}
+
+.buy-now .card .back {
+    background-color: #ef6f2e;
+    z-index: 2;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.buy-now .card .back2 {
+    background-color: #ea6173;
+
+}
+
+.buy-now .card .back img {
+    margin: 30px 0 70px;
+    width: 50%
+}
+
+.buy-now .card .back,
+.buy-now .card .back h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px
+}
+
+.buy-now .card .back2 h3:hover {
+    border-bottom: 2px solid #303174;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.buy-now .btn-head {
+    margin: 50px auto 0;
+}
+
+/* End Buy-Now */
+
+/* Start Contact-Us */
+.contact-us {
+    background: url(../images/imgs/contact-us/contact\ us.gif) no-repeat center center;
+    background-size: cover
+}
+
+.contact-us h3,
+.email h3 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.contact-us .btn-head,
+.email .btn-head {
+    margin-top: 40px;
+}
+
+.contact-us .form-control,
+.email .form-control {
+    border-radius: 0.7rem;
+}
+
+.contact-us .modal-header .close {
+    padding: 0;
+    margin: 0;
+}
+
+/* End Contact-Us */
+
+/* Start E-mail */
+.email {
+    background-color: #ff604b
+}
+
+/* End E-mail */
+
+/* Start Footer */
+.footer {
+    background: linear-gradient(to left, rgba(236, 99, 117, 1), rgba(89, 53, 125, 1));
+    text-align: right
+}
+
+.footer .footer-items p,
+.footer .footer-items a {
+    color: #fff;
+    text-decoration: none
+}
+
+.footer .footer-items .list-unstyled a:hover {
+    color: #ec7638
+}
+
+.footer .footer-items .list-unstyled li {
+    padding: 7px 0
+}
+
+.footer .footer-items .list-unstyled,
+.footer .footer-items .list-inline {
+    margin-top: 25px;
+}
+
+.footer .footer-items .list-inline i {
+    margin: 0 10px;
+    transition: all 1.2s ease-in-out;
+    -webkit-transition: all 1.2s ease-in-out;
+    -moz-transition: all 1.2s ease-in-out;
+    -ms-transition: all 1.2s ease-in-out;
+    -o-transition: all 1.2s ease-in-out;
+}
+
+.footer .footer-items .list-inline .fa-facebook-f:hover {
+    color: #3B5998;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+.footer .footer-items .list-inline .fa-twitter:hover {
+    color: #1DA1F2;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+
+}
+
+.footer .footer-items .list-inline .fa-instagram:hover {
+    color: #e1306c;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+/***************************** Start About US **************************/
+
+.about,
+.faq,
+.how-to,
+.nav-for-sell,
+.nav-degla-land {
+    background-color: #ef6f2e
+}
+
+
+.about .nav-link,
+.faq .nav-link,
+.how-to .nav-link,
+.nav-for-sell .nav-link,
+.nav-degla-land .nav-link {
+    color: #fff;
+    margin-top: 35px;
+}
+
+@media (max-width: 767px) {
+
+    .about .nav-link,
+    .faq .nav-link,
+    .how-to .nav-link,
+    .nav-for-sell .nav-link,
+    .nav-degla-land .nav-link {
+        display: inline;
+        padding: 1rem 1rem;
+    }
+}
+
+.about img,
+.faq img,
+.how-to img {
+    width: 80%
+}
+
+
+.about-header {
+    background: url(../images/imgs/about-us/about.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.about-header h2,
+.about-header p {
+    color: #fff
+}
+
+.about-header p {
+    margin: 50px 0
+}
+
+/* Start Card */
+
+.card-items .card {
+    margin: 80px 0 0;
+
+}
+
+@media (max-width: 768px) {
+
+    .card-items .card {
+        margin: 10px auto;
+    }
+
+}
+
+.card-items .card,
+.card-items .card img {
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.card-items .card h5,
+.card-items .card p {
+    text-align: right;
+    color: #333
+}
+
+/*************************** Start FAQ ************************/
+
+.faq {
+    background-color: #ef6f2e
+}
+
+.faq .nav-link {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.faq img {
+    width: 80%
+}
+
+.accordion-items {
+    text-align: right
+}
+
+.accordion-items .accordion {
+    margin: 80px 0 0;
+
+}
+
+@media (max-width: 768px) {
+    .accordion-items .accordion {
+        margin: 0;
+    }
+}
+
+.accordion-items .accordion .card .card-header .btn-link {
+    color: #ef6f2e;
+    text-decoration: none
+}
+
+.accordion-items .accordion .card .card-header .btn-link:hover {
+    color: #303174
+}
+
+/************************ Start How To Buy **************************/
+
+.how-to-buy {
+    background: url(../images/imgs/how-to-buy/service-page_02.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+    height: 470px;
+}
+
+.how-to-buy .overlay {
+    background-color: rgba(147, 145, 142, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0
+}
+
+.how-to-buy h2 {
+    padding: 50px 0 0
+}
+
+.how-to-buy h2,
+.how-to-buy p {
+    color: #fff
+}
+
+.how-to-buy p {
+    margin: 30px 0
+}
+
+@media (max-width: 767px) {
+    .how-to-buy {
+        height: 650px;
+    }
+
+    .how-to-buy h2 {
+        padding: 10px 0 0;
+    }
+
+    .how-to-buy p {
+        margin: 0
+    }
+}
+
+.view-more img {
+    width: 100%;
+    margin-top: 50px;
+    transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.view-more img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/************************** Start For-Sell *********************/
+.for-sell {
+    background: url(../images/imgs/buy-now/subtle-pattern-1.jpg) no-repeat center center;
+    background-size: cover
+}
+
+.for-sell .card {
+    text-align: right;
+    margin-top: 30px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.for-sell .card .icon {
+    display: block;
+    margin: 10px 0;
+    padding-right: 10px;
+}
+
+.for-sell .card .icon i {
+    color: #ef6f2e;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.for-sell .card .icon span {
+    color: #213570;
+    font-size: 13px
+}
+
+.for-sell .card .btn-head {
+    font-size: 14px;
+    padding: 8px 25px;
+    margin: 20px auto;
+}
+
+.for-sell nav {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.for-sell nav .pagination {
+    position: absolute;
+    top: 30px;
+    left: 41%;
+    margin-bottom: 20px
+}
+
+.for-sell nav .pagination .page-link {
+    color: #ef6f2e
+}
+
+@media (max-width:767px) {
+    .for-sell nav .pagination {
+        left: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .for-sell nav .pagination {
+        left: 33%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .for-sell nav .pagination {
+        left: 40%;
+    }
+}
+
+.for-sell .item1,
+.for-sell .item2,
+.for-sell .btn-head {
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+.for-sell .btn-group>.btn {
+    background-color: #213570;
+    border: #213570;
+    padding: 8px 35px;
+    border-radius: 50px;
+}
+
+.for-sell .dropdown-toggle::after,
+.search .dropdown-toggle::after {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.for-sell .item2 {
+    margin-top: 40px;
+}
+
+.for-sell .btn-primary {
+    border-radius: 50px;
+    padding: 8px 40px;
+    background-color: #213570;
+    border: #213570;
+}
+
+.for-sell .btn-group>.btn:hover,
+.for-sell .btn-primary:hover {
+    background-color: #213570;
+    border: #213570;
+}
+
+@media (max-width:767px) {
+
+    .for-sell .item1,
+    .for-sell .item2,
+    .for-sell .btn-head {
+        margin-left: 95px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .for-sell .item1 {
+        margin-left: 240px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .for-sell .item2 {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .for-sell .btn-head {
+        margin-left: 145px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .for-sell .btn-head {
+        margin-left: 285px;
+    }
+}
+
+.for-sell .dropdown-menu {
+    background-color: #213570;
+    text-align: center;
+}
+
+.for-sell .dropdown-menu .dropdown-item {
+    color: #fff
+}
+
+.for-sell .dropdown-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #3561e4;
+}
+
+.for-sell .side-content {
+    width: 100%;
+    margin: 50px 0
+}
+
+.for-sell .side-content .side,
+.for-sell .side-content .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    outline: none;
+    opacity: 0.7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.for-sell .side-content .side::-webkit-slider-thumb,
+.for-sell .side-content .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 21px;
+    height: 21px;
+    background: #ec7638;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.for-sell .side-content .side::-moz-range-thumb,
+.for-sell .side-content .slider::-moz-range-thumb {
+    width: 21px;
+    height: 21px;
+    background: #ec7638;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.for-sell .side-content .content {
+    margin-top: 10px;
+    color: #333;
+    text-align: right;
+}
+
+.for-sell .btn-head {
+    margin-top: 5px
+}
+
+/******************* Start Degla Land **********************/
+.degla-slider {
+    padding-bottom: 0
+}
+
+.search {
+    background-color: #cacaca;
+    padding: 50px 0;
+    position: relative;
+}
+
+.search .btn {
+    margin-bottom: 30px
+}
+
+.search .btn-light,
+.search .btn-secondary {
+    font-size: 16px;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none
+}
+
+.search .btn-light {
+    color: #cacaca;
+}
+
+.search i {
+    position: absolute;
+    top: 22%;
+    left: 22px
+}
+
+.search .dropdown-menu {
+    padding: 0;
+    margin: 10px 0
+}
+
+.search .item1 .dropdown-item {
+    text-align: center;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff
+}
+
+.search .item1 .dropdown-menu .dropdown-item:hover {
+    color: #fff;
+    background-color: #3561e4;
+}
+
+.degla-slider .dest {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #ef6f2e;
+    padding: 9px 20px;
+    margin: 30px 0;
+}
+
+.degla-slider p,
+.degla-slider h4 {
+    color: #111;
+    padding: 10px 0
+}
+
+.degla-slider .item-icon {
+    text-align: right
+}
+
+.degla-slider .icon {
+    display: block;
+    margin: 15px 0;
+    padding-right: 10px;
+}
+
+.degla-slider .icon i {
+    color: #ef6f2e;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.degla-slider .icon span {
+    color: #213570;
+    font-size: 18px
+}
+
+.degla-slider .btn-head {
+    background: #ef6f2e;
+    color: #fff;
+    padding: 8px 75px;
+    width: 100%
+}
+
+.degla-slider .btn-head:hover {
+    color: #213570
+}
+
+.degla-slider .sell {
+    background: transparent;
+    color: #303174;
+    border: 1px solid #303174;
+    font-size: 16px;
+    padding: 8px 75px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none
+}
+
+.degla-slider .sell:hover {
+    background: #303174;
+    color: #fff
+}
